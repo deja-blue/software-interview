@@ -4,7 +4,10 @@
 
 Hey!
 
-If you are reading this, we are really excited about you joining our team here at Deja Blue! We designed this take-home exercise to:
+If you are reading this, we are really excited about you joining our team here at [Deja Blue](www.dejablue.energy)! We are laser focused on turning electric vehicles into the largest distributed energy asset in the connected grid and looking for great people to join our team.
+
+
+We designed this take-home exercise to:
 
 1. Learn as much as we can about how you work.
 2. Require as little of your time as possible.
