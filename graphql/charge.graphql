@@ -1,0 +1,29 @@
+enum ChargerStatus {
+  Available
+  PluggedIn
+}
+
+type VehicleStateOfCharge {
+  currentBatteryLevelKwH: Float
+  maxBatteryLevelKwH: Float
+  rangeKmPerKwH: Float
+}
+
+type Charger {
+  id: String!
+  powerKwH: Int!
+  status: ChargerStatus!
+}
+
+type ChargerState {
+  chargerStatus: ChargerStatus!
+}
+
+type Query {
+  Charger(id: String!): Charger
+  VehicleStateOfCharge(id: String!): VehicleStateOfCharge
+}
+
+type Subscription {
+  ChargerState(id: String!): ChargerState
+}
