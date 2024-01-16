@@ -13,7 +13,7 @@ We designed this take-home exercise to:
 2. Require as little of your time as possible.
 3. Introduce you to the types of challenges you might encounter in this role.
 
-This is intended to be a lightweight, full-stack exercise. It should take ~2.5 hours depending on your familiarity the different components. For the exercises, we created a a reduced form of our software stack: Golang on the backend, Typescript (Next JS for web tooling & React Native for our actual app) on the frontend. It is intended to resemble as much of a real world environment as possible. Feel free to use all of the resources that are normally at your disposal for your engineering work, but please complete it yourself (ex. no outsourcing).
+This is intended to be a lightweight, full-stack exercise. It should take ~2.5 hours depending on your familiarity the different components. For the exercises, we created a reduced form of our software stack: Golang on the backend, Typescript (Next JS for web tooling & React Native for our actual app) on the frontend. It is intended to resemble as much of a real world environment as possible. Feel free to use all of the resources that are normally at your disposal for your engineering work, but please complete it yourself (ex. no outsourcing).
 
 Below, you'll find the exercises we've chosen to represent the work you may encounter in this role. There is not necessarily a single right answer to some of these — we've left these intentionally open-ended to see how you think.
 
@@ -29,16 +29,16 @@ The exercises are structured in graduating order to try and maximize your exposu
 1. Clone the repo
 2. Complete the exercises
 3. Create a quick Loom (or similar) walking us through your solution design and prototype. This is your opportunity for you to share the reasoning behind the design and implementation designs you made.
-5. Send your submission to [software-interview-submission@dejablue.energy](mailto:software-interview-submission@dejablue.energy). We will go review this and give personalized feedback for every submission.
+4. Send your submission to [software-interview-submission@dejablue.energy](mailto:software-interview-submission@dejablue.energy). We will go review this and give personalized feedback for every submission.
 
 **Please do not fork the repository**. We want to keep your solution yours, since other applicants will be doing the same exercise.
 
 *Alternatively, if you have a GitHub repo or other work that you think clearly demonstrates all the same skills presented in this exercise, even to those unfamiliar with the code base, you are welcome to send that to us instead.*
 
-Last, if you have any questions, don't hesitate to reach out to "parker" at "dejablue.energy".
+Last, if you have any questions, don't hesitate to reach out to [parker@dejablue.energy](mailto:parker@dejablue.energy).
 
 ### Exercises
-We created a sandbox environment for you that should be ready to go out of the box! (Let us know if you run into any issues.) All of the details for [local development environment](#development-environment).
+We created a sandbox environment for you that should be ready to go out of the box! (Let us know if you run into any issues.) Here are all of the details for [local development environment](#development-environment).
 
 The tasks are broken down into segments. Please try to complete at least four of these tasks in the given time.
 
@@ -88,7 +88,7 @@ This system should replace the prior pricing policy. Please connect this to the 
 Motivating background information:
 <img src="./assets/energy-rate-structures.png" alt="Energy Rate Structures" width="50%">
 
-In many markets, users pay [different prices](https://www.chooseenergy.com/energy-resources/energy-buying-guide/) of electriticity (changing on a per hour basis), based upon the time of day. This is due to imbalances in supply and demand, exasperated with the growing renewable penetration. Typically, energy is most prevalent and cheapest during the day, when thermal wind and solar generation are at full force, while in the evenings, renewable generation is low and there is the highest energy demand as everyone returns home (and plugs in their EV!). This phenomenon is referred to as the [duck curve](https://www.synergy.net.au/Blog/2021/10/Everything-you-need-to-know-about-the-Duck-Curve).
+In many markets, users pay [different prices](https://www.chooseenergy.com/energy-resources/energy-buying-guide/) of electricity (changing on a per hour basis), based upon the time of day. This is due to imbalances in supply and demand, exasperated with the growing renewable penetration. Typically, energy is most prevalent and cheapest during the day, when thermal wind and solar generation are at full force, while in the evenings, renewable generation is low and there is the highest energy demand as everyone returns home (and plugs in their EV!). This phenomenon is referred to as the [duck curve](https://www.synergy.net.au/Blog/2021/10/Everything-you-need-to-know-about-the-Duck-Curve).
 
 <img src="./assets/duck-curve.jpeg" alt="Duck Curve" width="50%">
 
@@ -97,7 +97,7 @@ Markets with variable pricing often use this as a financial incentive to charge 
 
 #### **Task 3:** Calculate the cheapest time to charge within the next 12 hours
 
-For ECO mode, and assuming a max power charge level and continuous amount for the duration of the charge, calculate the optimal charge start and end time within the next 12 hour period.
+For ECO mode, and assuming a max power charge level and continuous amount for the duration of the charge, calculate the optimal charge start and end time within the next 12-hour period.
 
 #### **Task 4:** Enable your UI to respond to the real world event of a vehicle plugging into / being unplugged from a charger.
 
@@ -105,11 +105,11 @@ EV charging plays at the fun intersection of software <> physical things in the 
 
 Update the UI to a new screen asking the user to plug in if the charger state changes to "available". *Hint*: we don't want to see a polling loop mechanism here, see what you can take advantage of with GraphQL structures.
 
-First, on the backemd, you will need to implement the [resolver](./go/pkg/gen/gql/resolver/charge.resolvers.go) to stream the information to the client. If you are new to this topic, there are some good online resources about [channels and concurrency](https://medium.com/goturkiye/concurrency-in-go-channels-and-waitgroups-25dd43064d1), and you might find other useful references in the codebase. Once this is in a good state, you will be able to test this end to end with data live updating on the client.
+First, on the backend, you will need to implement the [resolver](./go/pkg/gen/gql/resolver/charge.resolvers.go) to stream the information to the client. If you are new to this topic, there are some good online resources about [channels and concurrency](https://medium.com/goturkiye/concurrency-in-go-channels-and-waitgroups-25dd43064d1), and you might find other useful references in the codebase. Once this is in a good state, you will be able to test this end to end with data live updating on the client.
 
-All of the wriing between the front and backend is complete. In the same [file]([here](./src/app/charge/[chargerID]/page.tsx) that you made the initial changes for the UI; there is a second function that enables you to subscribe to charger changes. Attach that to your UI somewhere and you will seem streamed values as the state updates.
+All of the wiring between the front and backend is complete. In the same [file]([here](./src/app/charge/[chargerID]/page.tsx) that you made the initial changes for the UI; there is a second function that enables you to subscribe to charger changes. Attach that to your UI somewhere and you will seem streamed values as the state updates.
 
-Once you get here, you may consider updating the API to something that fits your desired implementation for this last task - the initial subscription is here to help you quickly get
+Once you get here, you may consider updating the API to something that fits your desired implementation for this last task - the initial subscription is here to help you quickly get there.
 
 The Apollo client has more documentation about working with [subscriptions](https://www.apollographql.com/docs/react/data/subscriptions/) to update components. For this exercise, use the charger "GHI", which was [set up to update its state](./go/main.go) quickly to ease testing. Feel free to modify anything as you see fit.
 
