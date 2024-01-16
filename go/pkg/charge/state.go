@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/deja-blue/swe-interview/go/pkg/gen/gql/model"
+	"github.com/deja-blue/software-interview/go/pkg/gen/gql/model"
 	"github.com/google/uuid"
 )
 
