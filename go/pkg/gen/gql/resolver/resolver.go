@@ -1,6 +1,6 @@
 package resolver
 
-import "github.com/deja-blue/swe-interview/go/pkg/charge"
+import "github.com/deja-blue/software-interview/go/pkg/charge"
 
 // This file will not be regenerated automatically.
 //

@@ -8,9 +8,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/deja-blue/swe-interview/go/pkg/charge"
-	"github.com/deja-blue/swe-interview/go/pkg/gen/gql/model"
-	"github.com/deja-blue/swe-interview/go/pkg/gen/gql/schema"
+	"github.com/deja-blue/software-interview/go/pkg/charge"
+	"github.com/deja-blue/software-interview/go/pkg/gen/gql/model"
+	"github.com/deja-blue/software-interview/go/pkg/gen/gql/schema"
 )
 
 // Charger is the resolver for the Charger field.
@@ -37,13 +37,12 @@ func (r *queryResolver) VehicleStateOfCharge(ctx context.Context, id string) (*m
 }
 
 // ChargerState is the resolver for the ChargerState field.
-// Task 4:
-// This function needs to fetch the charger state information and then subscribe to future updates.
-// Be mindful of the fact that this is a pipeline of information flow and we do not control which part of the pipeline receives a notice of cancellation first.
-// Also be mindful of accidentally blocking main thread.
-// I find unit testing most helpful with sync.WaitGroup as it enables you to control the order of operations to reach the test points that you want to verify.
 func (r *subscriptionResolver) ChargerState(ctx context.Context, id string) (<-chan *model.ChargerState, error) {
-	// TODO: Implement this function.
+	// 	Task 4:
+	// This function needs to fetch the charger state information and then subscribe to future updates.
+	// Be mindful of the fact that this is a pipeline of information flow and we do not control which part of the pipeline receives a notice of cancellation first.
+	// Also be mindful of accidentally blocking main thread.
+	// I find unit testing most helpful with sync.WaitGroup as it enables you to control the order of operations to reach the test points that you want to verify.
 	return nil, errors.New("unimplemented")
 }
 

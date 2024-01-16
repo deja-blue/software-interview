@@ -1,4 +1,4 @@
-module github.com/deja-blue/swe-interview
+module github.com/deja-blue/software-interview
 
 go 1.21.1
 

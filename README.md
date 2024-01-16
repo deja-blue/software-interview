@@ -29,7 +29,7 @@ The exercises are structured in graduating order to try and maximize your exposu
 1. Clone the repo
 2. Complete the exercises
 3. Create a quick Loom (or similar) walking us through your solution design and prototype. This is your opportunity for you to share the reasoning behind the design and implementation designs you made.
-5. Send your submission to [swe-interview-submission@dejablue.energy](mailto:swe-interview-submission@dejablue.energy). We will go review this and give personalized feedback for every submission.
+5. Send your submission to [software-interview-submission@dejablue.energy](mailto:software-interview-submission@dejablue.energy). We will go review this and give personalized feedback for every submission.
 
 **Please do not fork the repository**. We want to keep your solution yours, since other applicants will be doing the same exercise.
 

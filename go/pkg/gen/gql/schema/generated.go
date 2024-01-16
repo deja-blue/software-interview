@@ -14,7 +14,7 @@ import (
 
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
-	"github.com/deja-blue/swe-interview/go/pkg/gen/gql/model"
+	"github.com/deja-blue/software-interview/go/pkg/gen/gql/model"
 	gqlparser "github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 )
@@ -541,7 +541,7 @@ func (ec *executionContext) _Charger_status(ctx context.Context, field graphql.C
 	}
 	res := resTmp.(model.ChargerStatus)
 	fc.Result = res
-	return ec.marshalNChargerStatus2githubᚗcomᚋdejaᚑblueᚋsweᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐChargerStatus(ctx, field.Selections, res)
+	return ec.marshalNChargerStatus2githubᚗcomᚋdejaᚑblueᚋsoftwareᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐChargerStatus(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext_Charger_status(ctx context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -585,7 +585,7 @@ func (ec *executionContext) _ChargerState_chargerStatus(ctx context.Context, fie
 	}
 	res := resTmp.(model.ChargerStatus)
 	fc.Result = res
-	return ec.marshalNChargerStatus2githubᚗcomᚋdejaᚑblueᚋsweᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐChargerStatus(ctx, field.Selections, res)
+	return ec.marshalNChargerStatus2githubᚗcomᚋdejaᚑblueᚋsoftwareᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐChargerStatus(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext_ChargerState_chargerStatus(ctx context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -626,7 +626,7 @@ func (ec *executionContext) _Query_Charger(ctx context.Context, field graphql.Co
 	}
 	res := resTmp.(*model.Charger)
 	fc.Result = res
-	return ec.marshalOCharger2ᚖgithubᚗcomᚋdejaᚑblueᚋsweᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐCharger(ctx, field.Selections, res)
+	return ec.marshalOCharger2ᚖgithubᚗcomᚋdejaᚑblueᚋsoftwareᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐCharger(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext_Query_Charger(ctx context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -686,7 +686,7 @@ func (ec *executionContext) _Query_VehicleStateOfCharge(ctx context.Context, fie
 	}
 	res := resTmp.(*model.VehicleStateOfCharge)
 	fc.Result = res
-	return ec.marshalOVehicleStateOfCharge2ᚖgithubᚗcomᚋdejaᚑblueᚋsweᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐVehicleStateOfCharge(ctx, field.Selections, res)
+	return ec.marshalOVehicleStateOfCharge2ᚖgithubᚗcomᚋdejaᚑblueᚋsoftwareᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐVehicleStateOfCharge(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext_Query_VehicleStateOfCharge(ctx context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -883,7 +883,7 @@ func (ec *executionContext) _Subscription_ChargerState(ctx context.Context, fiel
 				w.Write([]byte{'{'})
 				graphql.MarshalString(field.Alias).MarshalGQL(w)
 				w.Write([]byte{':'})
-				ec.marshalOChargerState2ᚖgithubᚗcomᚋdejaᚑblueᚋsweᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐChargerState(ctx, field.Selections, res).MarshalGQL(w)
+				ec.marshalOChargerState2ᚖgithubᚗcomᚋdejaᚑblueᚋsoftwareᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐChargerState(ctx, field.Selections, res).MarshalGQL(w)
 				w.Write([]byte{'}'})
 			})
 		case <-ctx.Done():
@@ -3401,13 +3401,13 @@ func (ec *executionContext) marshalNBoolean2bool(ctx context.Context, sel ast.Se
 	return res
 }
 
-func (ec *executionContext) unmarshalNChargerStatus2githubᚗcomᚋdejaᚑblueᚋsweᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐChargerStatus(ctx context.Context, v interface{}) (model.ChargerStatus, error) {
+func (ec *executionContext) unmarshalNChargerStatus2githubᚗcomᚋdejaᚑblueᚋsoftwareᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐChargerStatus(ctx context.Context, v interface{}) (model.ChargerStatus, error) {
 	var res model.ChargerStatus
 	err := res.UnmarshalGQL(v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNChargerStatus2githubᚗcomᚋdejaᚑblueᚋsweᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐChargerStatus(ctx context.Context, sel ast.SelectionSet, v model.ChargerStatus) graphql.Marshaler {
+func (ec *executionContext) marshalNChargerStatus2githubᚗcomᚋdejaᚑblueᚋsoftwareᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐChargerStatus(ctx context.Context, sel ast.SelectionSet, v model.ChargerStatus) graphql.Marshaler {
 	return v
 }
 
@@ -3720,14 +3720,14 @@ func (ec *executionContext) marshalOBoolean2ᚖbool(ctx context.Context, sel ast
 	return res
 }
 
-func (ec *executionContext) marshalOCharger2ᚖgithubᚗcomᚋdejaᚑblueᚋsweᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐCharger(ctx context.Context, sel ast.SelectionSet, v *model.Charger) graphql.Marshaler {
+func (ec *executionContext) marshalOCharger2ᚖgithubᚗcomᚋdejaᚑblueᚋsoftwareᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐCharger(ctx context.Context, sel ast.SelectionSet, v *model.Charger) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Charger(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOChargerState2ᚖgithubᚗcomᚋdejaᚑblueᚋsweᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐChargerState(ctx context.Context, sel ast.SelectionSet, v *model.ChargerState) graphql.Marshaler {
+func (ec *executionContext) marshalOChargerState2ᚖgithubᚗcomᚋdejaᚑblueᚋsoftwareᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐChargerState(ctx context.Context, sel ast.SelectionSet, v *model.ChargerState) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -3766,7 +3766,7 @@ func (ec *executionContext) marshalOString2ᚖstring(ctx context.Context, sel as
 	return res
 }
 
-func (ec *executionContext) marshalOVehicleStateOfCharge2ᚖgithubᚗcomᚋdejaᚑblueᚋsweᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐVehicleStateOfCharge(ctx context.Context, sel ast.SelectionSet, v *model.VehicleStateOfCharge) graphql.Marshaler {
+func (ec *executionContext) marshalOVehicleStateOfCharge2ᚖgithubᚗcomᚋdejaᚑblueᚋsoftwareᚑinterviewᚋgoᚋpkgᚋgenᚋgqlᚋmodelᚐVehicleStateOfCharge(ctx context.Context, sel ast.SelectionSet, v *model.VehicleStateOfCharge) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
