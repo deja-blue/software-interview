@@ -35,7 +35,7 @@ The exercises are structured in graduating order to try and maximize your exposu
 
 *Alternatively, if you have a GitHub repo or other work that you think clearly demonstrates all the same skills presented in this exercise, even to those unfamiliar with the code base, you are welcome to send that to us instead.*
 
-Last, if you have any questions, don't hesitate to reach out to [parker@dejablue.energy](mailto:parker@dejablue.energy).
+Last, if you have any questions, don't hesitate to reach out to "parker" at "dejablue.energy".
 
 ### Exercises
 We created a sandbox environment for you that should be ready to go out of the box! (Let us know if you run into any issues.) Here are all of the details for [local development environment](#development-environment).
