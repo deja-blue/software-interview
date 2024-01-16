@@ -33,12 +33,12 @@ The exercises are structured in graduating order to try and maximize your exposu
 
 **Please do not fork the repository**. We want to keep your solution yours, since other applicants will be doing the same exercise.
 
-*Alternatively, if you have a GitHub repo or other work that you think clearly demonstrates all the same skills presented in this exercise, even to those unfamiliar with the code base, feel free to send that to us instead.*
+*Alternatively, if you have a GitHub repo or other work that you think clearly demonstrates all the same skills presented in this exercise, even to those unfamiliar with the code base, you are welcome to send that to us instead.*
 
-Last, if you have any questions, feel free to reach out to "parker" at "dejablue.energy".
+Last, if you have any questions, don't hesitate to reach out to "parker" at "dejablue.energy".
 
 ### Exercises
-We created a sandbox environment for you that should be ready to go out of the box! (Please let us know if you run into any issues.) All of the details for [local development environment](#development-environment).
+We created a sandbox environment for you that should be ready to go out of the box! (Let us know if you run into any issues.) All of the details for [local development environment](#development-environment).
 
 The tasks are broken down into segments. Please try to complete at least four of these tasks in the given time.
 
@@ -65,13 +65,13 @@ Please see the instructions in [Figma](https://www.figma.com/file/1bcKFWLdkF7FFn
 
 <img src="./assets/smart-charging.png" alt="Smart Charging Screen" width="50%">
 
-- You may consider augmenting the [endpoints](graphql/charge.graphql) to calculate the estimated price and time of completion for the charge rates. You can use a constant rate of 25, 30, and 40 cents per kWh for the three [charge rates](./go/pkg/charge/pricing.go), and feel free to make and document assumptions about charge times. Look at the implementation of the other queries to replicate the structure and refer to the [GraphQL code generation instructions](#graphql-generation).
+- You may consider augmenting the [endpoints](graphql/charge.graphql) to calculate the estimated price and time of completion for the charge rates. You can use a constant rate of 25, 30, and 40 cents per kWh for the three [charge rates](./go/pkg/charge/pricing.go). Look at the implementation of the other queries to replicate the structure and refer to the [GraphQL code generation instructions](#graphql-generation).
 
 The backend is already seeded with [a few chargers in different states](go/main.go). You have access to the [graphQL playground as well](#server). The charger with the ID "ABC"  is in the "Available" state and the ID "DEF" corresponds to a charger with a vehicle plugged in.
 
 <img src="./assets/sample-graphql-query.png" alt="Sample GraphQL Query">
 
-- Feel free to leave the to portion for later in the exercise as this component is a little tricky. Or, if you're feeling confident, put in a place holder that will work for now and that we can update in the future. As a startup, it is important that we know which tradeoffs we can take.
+- We will cover the interactive UI in the top portion (`charge target percentage controller`) in the final [task](#task-5-complete-the-rest-of-the-ui-from-task-1). For now, put in a place holder that will work and display the appropriate data. As a startup, it is important that we know which tradeoffs we can take, so that we spend our time focused on the highest impact areas and build sequentially toward our larger goals.
 
 #### **Task 2:** Implement a variable tariff pricing policy.
 
