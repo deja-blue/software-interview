@@ -40,7 +40,7 @@ Last, if you have any questions, don't hesitate to reach out to "parker" at "dej
 ### Exercises
 We created a sandbox environment for you that should be ready to go out of the box! (Let us know if you run into any issues.) Here are all of the details for [local development environment](#development-environment).
 
-The tasks are broken down into segments. Please try to complete at least four of these tasks in the given time.
+The tasks are broken down into segments. Please try to complete at least three of these tasks in the given time.
 
 1. [Task 1: Implement the charge rate controller](#task-1-implement-the-charge-rate-controller)
 - Focus areas:
@@ -49,8 +49,7 @@ The tasks are broken down into segments. Please try to complete at least four of
 2. [Task 2: Implement a variable tariff pricing policy](#task-2-implement-a-variable-tariff-pricing-policy)
 - Focus areas:
     - GraphQL / API design
-3. [Task 3: Calculate the optimal charge start and end time]
-(#task-3-calculate-the-optimal-charge-start-and-end-time)
+3. [Task 3: Calculate the optimal charge start and end time](#task-3-calculate-the-cheapest-time-to-charge-within-the-next-12-hours)
 - Focus area: algorithm design and testing
 4. [Task 4: Update the UI based on charger state](#task-4-update-the-ui-based-on-charger-state)
 - Focus areas:
