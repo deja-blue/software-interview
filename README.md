@@ -133,7 +133,9 @@ Thank you for your time and consideration!
 *Note: this is an active repo, and like any other project, you may encounter small things that don't work quite right or need a slight adjustment. We encourage you to let us know or make the small fix so we can offer the best experience to subsequent interviewers.*
 
 To get started, install the developer tooling for the exercise:
-- In the project root folder, run `make setup-mac`
+- In the project root folder, run `make setup-mac`.
+
+(If you don't have a mac, please see the [asdf install documentation](https://asdf-vm.com/guide/getting-started.html#_2-download-asdf).)
 
 ### Server:
 ```bash
