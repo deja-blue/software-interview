@@ -1,7 +1,6 @@
 package main
 
 import (
-	"embed"
 	"flag"
 	"fmt"
 	"net/http"
@@ -25,9 +24,6 @@ import (
 
 var (
 	chargeListenPort = flag.String("charge-http-listen-port", "8080", "HTTP port to listen to for charge service")
-
-	//go:embed playground.gohtml
-	embeddedFiles embed.FS
 )
 
 func main() {
