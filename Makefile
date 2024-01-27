@@ -8,6 +8,7 @@ setup-mac: setup-mac-install-asdf setup-common-install
 
 .PHONY: setup-mac-install-asdf
 setup-mac-install-asdf:
+	brew install gpg # asdf dep.
 	brew install asdf
 
 	# Idempotently add language plugins.
