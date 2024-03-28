@@ -1,10 +1,10 @@
 <img src="./assets/deja-blue.png" alt="Deja Blue Logo" width="50%">
 
-## Deja Blue Software Interview
+## DejaBlue Software Interview
 
 Hey!
 
-If you are reading this, we are really excited about you joining our team here at [Deja Blue](www.dejablue.energy)! We are laser focused on turning electric vehicles into the largest distributed energy asset in the connected grid and looking for great people to join our team.
+If you are reading this, we are really excited about you joining our team here at [DejaBlue](www.dejablue.energy)! We are laser focused on turning electric vehicles into the largest distributed energy asset in the connected grid and looking for great people to join our team.
 
 
 We designed this take-home exercise to:
@@ -17,7 +17,7 @@ This is intended to be a lightweight, full-stack exercise. It should take ~2.5 h
 
 Below, you'll find the exercises we've chosen to represent the work you may encounter in this role. There is not necessarily a single right answer to some of these — we've left these intentionally open-ended to see how you think.
 
-Please note, this a fully fictitious exercise, based upon the larger EV charging domain, that was built specifically for this coding exercise - and will not be leveraged by Deja Blue for any purposes other than assessing your work.
+Please note, this a fully fictitious exercise, based upon the larger EV charging domain, that was built specifically for this coding exercise - and will not be leveraged by DejaBlue for any purposes other than assessing your work.
 
 **We also understand that it won't be possible to complete all exercises,** so we recommend you do not take **no more than the expected 2.5 hours**, and simply do as much as you can in that time frame. We want to be respectful for your time.
 
@@ -70,7 +70,7 @@ The backend is already seeded with [a few chargers in different states](go/main.
 
 <img src="./assets/sample-graphql-query.png" alt="Sample GraphQL Query">
 
-- We will cover the interactive UI in the top portion (`charge target percentage controller`) in the final [task](#task-5-complete-the-rest-of-the-ui-from-task-1). For now, put in a place holder that will work and display the appropriate data. As a startup, it is important that we know which tradeoffs we can take, so that we spend our time focused on the highest impact areas and build sequentially toward our larger goals.
+- We will cover the interactive UI in the top portion (`charge target percentage controller`) in the final [task](#task-5-complete-the-rest-of-the-ui-from-task-1). For now, put in a placeholder that will work and display the appropriate data. As a startup, it is important that we know which tradeoffs we can take, so that we spend our time focused on the highest impact areas and build sequentially toward our larger goals.
 
 #### **Task 2:** Implement a variable tariff pricing policy.
 
