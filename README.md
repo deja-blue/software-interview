@@ -21,7 +21,7 @@ Please note, this a fully fictitious exercise, based upon the larger EV charging
 
 The exercises are structured in graduating order to try and maximize your exposure within this time.
 
-**Last, we tried to design this to be a fun experience for you. We hope you enjoy the exercises.**
+**We tried to design this to be a fun experience for you. We hope you enjoy the exercises.**
 
 ### **Instructions**:
 1. Clone the repo
