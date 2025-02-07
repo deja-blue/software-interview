@@ -19,8 +19,6 @@ Below, you'll find the exercises we've chosen to represent the work you may enco
 
 Please note, this a fully fictitious exercise, based upon the larger EV charging domain, that was built specifically for this coding exercise - and will not be leveraged by DejaBlue for any purposes other than assessing your work.
 
-**We also understand that it won't be possible to complete all exercises,** so we recommend you do not take **no more than the expected 2.5 hours**, and simply do as much as you can in that time frame. We want to be respectful for your time.
-
 The exercises are structured in graduating order to try and maximize your exposure within this time.
 
 **Last, we tried to design this to be a fun experience for you. We hope you enjoy the exercises.**
