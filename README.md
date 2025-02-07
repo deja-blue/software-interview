@@ -13,17 +13,15 @@ We designed this take-home exercise to:
 2. Require as little of your time as possible.
 3. Introduce you to the types of challenges you might encounter in this role.
 
-This is intended to be a lightweight, full-stack exercise. It should take ~2.5 hours depending on your familiarity the different components. For the exercises, we created a reduced form of our software stack: Golang on the backend, Typescript (Next JS for web tooling & React Native for our actual app) on the frontend. It is intended to resemble as much of a real world environment as possible. Feel free to use all of the resources that are normally at your disposal for your engineering work, but please complete it yourself (ex. no outsourcing).
+This is intended to be a lightweight, full-stack exercise. It should take 3-5 hours depending on your familiarity the different components. For the exercises, we created a reduced form of our software stack: Golang on the backend, Typescript (Next JS for web tooling & React Native for our actual app) on the frontend. It is intended to resemble as much of a real world environment as possible. Feel free to use all of the resources that are normally at your disposal for your engineering work, but please complete it yourself (ex. no outsourcing).
 
 Below, you'll find the exercises we've chosen to represent the work you may encounter in this role. There is not necessarily a single right answer to some of these — we've left these intentionally open-ended to see how you think.
 
 Please note, this a fully fictitious exercise, based upon the larger EV charging domain, that was built specifically for this coding exercise - and will not be leveraged by DejaBlue for any purposes other than assessing your work.
 
-**We also understand that it won't be possible to complete all exercises,** so we recommend you do not take **no more than the expected 2.5 hours**, and simply do as much as you can in that time frame. We want to be respectful for your time.
-
 The exercises are structured in graduating order to try and maximize your exposure within this time.
 
-**Last, we tried to design this to be a fun experience for you. We hope you enjoy the exercises.**
+**We tried to design this to be a fun experience for you. We hope you enjoy the exercises.**
 
 ### **Instructions**:
 1. Clone the repo
